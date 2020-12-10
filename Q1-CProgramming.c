@@ -7,14 +7,20 @@ The question has four parts, answer all of them in this same file*/
 /*(a) [5 Marks] write structure Node that holds an integer value as well as a pointer to the next node*/
 //Answer:
 
-
-
-
-
+struct Node {
+	int value;
+	struct Node* nextnode; 
+}
 
 
 /*(b) [5 Marks] Write structure SLL that represents the singly linked list and holds a pointer to the first node in the list.*/
 //Answer:
+
+struct SLL { 
+	
+	
+
+
 
 
 
@@ -28,6 +34,10 @@ returns:
 1 if the target was found in the list
 0, otherwise*/
 //Answer:
+	
+bool searchList (Node* head, int i) {
+
+
 
 
 
